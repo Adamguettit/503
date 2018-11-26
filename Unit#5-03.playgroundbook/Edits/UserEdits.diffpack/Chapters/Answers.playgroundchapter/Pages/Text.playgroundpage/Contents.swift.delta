@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>var numArray : [Int] = []
+var smallestNumber : Int = 0
+
+func smallestNum(array : [Int])-&gt; Int {
+    //finds smallest nunber outta the 10 
+    
+    var smallest : Int = array[0]
+    
+    for numbers in array {
+        if numbers &lt; smallest {
+            smallest = numbers
+        }
+    } 
+    
+    return smallest
+}
+
+for counter in 1 ... 10 {
+    let numbers = Int(arc4random_uniform(10) + 1)
+    show(numbers)
+    numArray.append(numbers)
+}  
+
+smallestNumber = smallestNum(array: numArray)
+show(smallestNumber)
+
+
+  
+</string>
+			<key>ModifiedRange</key>
+			<string>{145, 517}</string>
+			<key>OriginalContent</key>
+			<string>show("What is your name?")
+
+let name = ask("Name")
+
+show("Hi " + name)
+</string>
+			<key>OriginalRange</key>
+			<string>{145, 71}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Answers.playgroundchapter/Pages/Text.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
